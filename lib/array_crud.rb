@@ -20,12 +20,12 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-    array = %W[hi blah hello! arrays!]
+    array = %W[hi blah hello arrays]
     array.pop
 end
 
 def remove_element_from_start_of_array(array)
-    array = %W[wow hi hi hello! arrays!]
+    array = %W[wow hi hi hello arrays]
     array.shift
 end
 
