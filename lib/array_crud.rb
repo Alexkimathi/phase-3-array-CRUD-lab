@@ -15,7 +15,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-    array = %W[hello blah blah!]
+    array = %W[hello blah blah hi]
     array.unshift "wow"
 end
 
